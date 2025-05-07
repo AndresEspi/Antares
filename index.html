@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antares</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Villa Antares</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#propiedades">Propiedades</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#inversores">Inversores</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Proyecto Residencial Antares</h1>
+            <p>Un desarrollo exclusivo en una de las mejores ubicaciones</p>
+            <a href="#propiedades" class="cta-button">Ver Propiedades</a>
+        </div>
+    </section>
+
+    <section class="properties" id="propiedades">
+        <h2>Nuestros Apartamentos</h2>
+        <div class="property-grid">
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Apartamento 51m²">
+                </div>
+                <div class="property-info">
+                    <h3>Apartamento Primer Piso</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> 51m² - Primer Nivel</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 2 Hab</span>
+                        <span><i class="fas fa-bath"></i> 1 Baño</span>
+                        <span><i class="fas fa-car"></i> 1 Parqueo</span>
+                    </div>
+                    <a href="apartamentos/apartamento1.html" class="property-button">Ver Detalles</a>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Apartamento 43m²">
+                </div>
+                <div class="property-info">
+                    <h3>Apartamento Segundo Piso</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> 43m² - Segundo Nivel</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 2 Hab</span>
+                        <span><i class="fas fa-bath"></i> 1 Baño</span>
+                        <span><i class="fas fa-book"></i> Estudio</span>
+                    </div>
+                    <a href="apartamentos/apartamento2.html" class="property-button">Ver Detalles</a>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Apartamento Dúplex">
+                </div>
+                <div class="property-info">
+                    <h3>Apartamento Dúplex</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> 66m² - Dos Niveles</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 3 Hab</span>
+                        <span><i class="fas fa-bath"></i> 2 Baños</span>
+                        <span><i class="fas fa-stairs"></i> Dúplex</span>
+                    </div>
+                    <a href="apartamentos/apartamento3.html" class="property-button">Ver Detalles</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="video-container">
+        <div class="video-overlay">
+            <h2>Vive la Experiencia Antares</h2>
+            <p>Un espacio diseñado para tu bienestar</p>
+        </div>
+        <video autoplay loop muted playsinline class="full-width-video">
+            <source src="imagenes/video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+
+    <section class="about" id="nosotros">
+        <div class="about-content">
+            <h2>Sobre Nosotros</h2>
+            <p>Proyecto Antares es un desarrollo residencial exclusivo que ofrece apartamentos con acabados de alta calidad, diseñados para brindar máximo confort y funcionalidad. La construcción se completará a mediados de este año, dando paso a la fase de acabados y terminaciones.</p>
+            </div>
+    </section>
+
+    <section class="investors" id="inversores">
+        <div class="investors-content">
+            <h2>Oportunidad de Inversión</h2>
+            <p>Forma parte de este exclusivo proyecto residencial en una de las mejores ubicaciones del sector.</p>
+        </div>
+        <div class="investment-options">
+            <div class="investment-card">
+                <i class="fas fa-building"></i>
+                <h3>Desarrollo Inmobiliario</h3>
+                <p>Participa en proyectos de desarrollo desde el inicio con retornos estimados del 15-20% anual.</p>
+            </div>
+            <div class="investment-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Renta Fija</h3>
+                <p>Inversiones seguras en propiedades establecidas con rentas mensuales garantizadas.</p>
+            </div>
+            <div class="investment-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Coinversión</h3>
+                <p>Únete a otros inversores en proyectos de gran escala con beneficios compartidos.</p>
+            </div>
+        </div>
+        <div class="investor-cta">
+            <a href="#contacto" class="cta-button">Contactar con un asesor</a>
+        </div>
+    </section>
+
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9895071641367!2d-74.11850820687725!3d4.59590187756817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f992dd0ae1ff3%3A0x5f459f0e9b834eb3!2sTv.%2035a%20%2329B-57%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1746210097902!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <section class="contact" id="contacto">
+        <h2>Contáctanos</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono">
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+34 123 456 789</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@antaresinmobiliaria.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-location-dot"></i>
+                    <p>Calle Principal 123, Ciudad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Proyecto Antares</h3>
+                <p>Desarrollo residencial exclusivo</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#propiedades">Propiedades</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2025. Todos los Derechos Reservados. By DeMaOp
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartamento Dúplex 66m² - Antares</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Proyecto Antares</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html#inicio">Inicio</a></li>
+                <li><a href="../index.html#propiedades">Propiedades</a></li>
+                <li><a href="../index.html#nosotros">Nosotros</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="height: 60vh;">
+        <div class="hero-content">
+            <h1>Apartamento Dúplex</h1>
+            <p>66 metros cuadrados de espacio y elegancia</p>
+        </div>
+    </section>
+
+    <section class="property-details" style="padding: 5rem 1rem; max-width: 1200px; margin: 0 auto;">
+        <div class="property-overview" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 3rem;">
+            <div class="property-images" style="border-radius: 10px; overflow: hidden;">
+                <img src="https://via.placeholder.com/600x400" alt="Apartamento Dúplex 66m²" style="width: 100%; height: auto;">
+            </div>
+            <div class="property-info" style="padding: 2rem; background: #f5f5f5; border-radius: 10px;">
+                <h2>Características Principales</h2>
+                <ul style="list-style: none; margin: 1rem 0;">
+                    <li style="margin: 0.5rem 0;"><i class="fas fa-ruler-combined"></i> 66 metros cuadrados</li>
+                    <li style="margin: 0.5rem 0;"><i class="fas fa-bed"></i> 3 habitaciones</li>
+                    <li style="margin: 0.5rem 0;"><i class="fas fa-bath"></i> 2 baños</li>
+                    <li style="margin: 0.5rem 0;"><i class="fas fa-car"></i> 1 parqueadero</li>
+                    <li style="margin: 0.5rem 0;"><i class="fas fa-stairs"></i> Diseño dúplex con escalera interna</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="property-description">
+            <h2>Descripción Detallada</h2>
+            <p style="margin: 1rem 0; line-height: 1.8;">
+                Espectacular apartamento dúplex ubicado en el segundo y tercer piso, diseñado para ofrecer amplitud 
+                y confort en dos niveles. En el segundo piso encontrará una habitación, baño social, sala-comedor y 
+                cocina integral. El tercer piso alberga dos habitaciones adicionales y un baño completo, conectados 
+                por una elegante escalera interna. Los acabados son de alta calidad, superando los estándares del sector.
+            </p>
+
+            <div class="amenities" style="margin: 2rem 0;">
+                <h3>Acabados y Comodidades</h3>
+                <ul style="list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                    <li><i class="fas fa-check"></i> Cocina integral de alta calidad</li>
+                    <li><i class="fas fa-check"></i> Acabados premium en baños</li>
+                    <li><i class="fas fa-check"></i> Puertas de diseño superior</li>
+                    <li><i class="fas fa-check"></i> Iluminación natural abundante</li>
+                    <li><i class="fas fa-check"></i> Sala-comedor espacioso</li>
+                    <li><i class="fas fa-check"></i> Distribución en dos niveles</li>
+                    <li><i class="fas fa-check"></i> Escalera interna de diseño moderno</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="location-info" style="margin: 3rem 0;">
+            <h2>Ubicación</h2>
+            <p style="margin: 1rem 0;">
+                Situado en uno de los mejores barrios del sector, caracterizado por su tranquilidad y ambiente 
+                residencial. La ubicación privilegiada permite fácil acceso a servicios esenciales y áreas de interés.
+            </p>
+        </div>
+
+        <div class="contact-section" style="text-align: center; margin: 3rem 0;">
+            <h2>¿Interesado en este apartamento?</h2>
+            <p style="margin: 1rem 0;">Contáctanos para más información o para agendar una visita</p>
+            <a href="index.html#contacto" class="cta-button">Contactar</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>Copyright © 2025. Todos los Derechos Reservados. By DeMaOp</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
